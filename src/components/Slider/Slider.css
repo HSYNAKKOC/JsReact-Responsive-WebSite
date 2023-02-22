@@ -1,0 +1,74 @@
+.s-container{
+    position: relative;
+
+}
+.s-container .swiper{
+    width: 70%;
+    height: 12rem;
+    position: unset;
+}
+
+.s-container .swiper-slide{
+    background: white;
+    display: flex;
+    border-radius: 10px;
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.s-container .swiper-button-prev{
+    left: 6rem;
+    color: purple;
+}
+
+.s-container .swiper-button-next{
+    right: 6rem;
+    color: purple;
+}
+
+.lef-s{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+}
+.name>:nth-child(1){
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.name>:nth-child(2){
+    font-size: 0.9rem;
+}
+
+.left-s>:nth-child(2){
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.Shop
+{
+    font-size: 0.6rem;
+    border: 1px solid #F8E367;
+    background-color: rgb(134, 87, 134);
+    padding: 5px 10px;
+    width: max-content;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.img-p{
+    transform: rotate(-20deg);
+    position: absolute;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    bottom: -20%;
+
+}
